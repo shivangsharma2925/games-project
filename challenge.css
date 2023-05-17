@@ -1,0 +1,143 @@
+
+
+.btnn,
+.btn3 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.container,
+.container2,
+.container3,
+.container4 {
+    border: 5px solid black;
+    width: 75%;
+    margin: 52px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+
+    text-align: center;
+
+}
+
+.btn2 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#display {
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+#padd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn3 img {
+    border: 2px solid black;
+    padding: 2px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 6px green;
+    /*box-shadow: x-axis y-axis blur rate colour ; */
+}
+
+.photos img {
+    height: 150px;
+    width: 150px;
+    transition: 1s;
+    margin: 10px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.photos img:hover {
+    box-shadow: 0px 10px 50px blue;
+
+}
+
+.btns {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.whole {
+    display: flex;
+    border: 2px solid black;
+    height: 361px;
+    padding: 8px;
+    background-image: url(/blackjack.jpg);
+    color: white;
+}
+
+.whole2 {
+    border: 2px solid black;
+    height: 80px;
+    width: 100%;
+    background-image: url(/blackjack.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.whole3 {
+    border: 2px solid black;
+    height: 80px;
+    width: 100%;
+
+}
+
+.container5 {
+    border: 5px solid black;
+    width: 75%;
+    margin: 52px auto;
+    height: 640px;
+    padding: 12px;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+.whole2 button{
+    padding: 10px;
+    margin: auto;
+}
+.whole2 div{
+    border: 2px solid black;
+    width: 185px;
+    height: 59px;
+    display: flex;
+    /* margin-top: 9px; */
+    /* padding-top: 8px; */
+    justify-content: space-evenly;
+    padding: 8px;
+}
+

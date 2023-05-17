@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="challenge.css">
+</head>
+
+<body>
+  
+    <div class="container">
+        <h1> 1:how old are you?</h1>
+        <div class="btnn">
+            <button class="btn btn-primary" onclick="hello()">click me</button>
+
+
+            <button class="btn btn-danger" onclick="del()">delete</button>
+
+        </div>
+        <div class="btn2">
+            <div id="display">
+
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <h1>CHALLENGE 2:cat image</h1>
+        <div id="padd">
+            <button class="btn btn-success" onclick="generate()">start</button>
+        </div>
+        <div class="btn3" id="create">
+
+        </div>
+    </div>
+    <div class="container3">
+        <h1>CHALLENGE 3:rock... paper... scissor...</h1>
+        <div class="photos" id="game">
+            <img id="rock" onclick="winner(this)" src="download.png">
+            <img id="paper" onclick="winner(this)" src="paper.png">
+            <img id="scissor" onclick="winner(this)" src="scissor.jpg">
+        </div>
+        <div id="padd">
+            <button id="removeButton" class=" btn btn-danger" onclick="remove()">Remove</button>
+        </div>
+    </div>
+    <div class="container4">
+        <h1>CHALLENGE 4:change button colour...</h1>
+        <div class="btns">
+            <select style="width: 100px;" id="changecolour" onchange="change(this)">
+                <option value="random">random</option>
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="reset">reset</option>
+            </select>
+
+            <button class="btn btn-primary">wee!</button>
+            <button class="btn btn-danger">yahoo!</button>
+            <button class="btn btn-warning">google!</button>
+            <button class="btn btn-success">facebook!</button>
+        </div>
+    </div>
+    <div class="container5">
+        <h1>CHALLENGE 5:Blackjack...</h1>
+        <h3><span id="results">lets play</span></h3>
+        <div>
+
+            <!-- <img style="width: -moz-available;height: 520px;" src="/blackjack.jpg" alt="poker image"> -->
+            <div class="whole">
+                <div id="your_box" style="border:2px solid black;height: 350px;flex: 1;">
+                    <div >
+                        <h3>you:<span id="your_result">0</span></h3>
+                    </div>
+                </div>
+                <div id="dealer_box" style="border: 2px solid black;height: 350px;flex: 1;">
+                    <div >
+                        <h3>dealer:<span id="dealer_result">0</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="whole2">
+                <div style="padding: 0px;">
+                    <button id="btn-hit" class="btn btn-primary">hit</button>
+                    <button id="btnstand" class="btn btn-warning">stand</button>
+                    <button id="btndeal" class="btn btn-danger">deal</button>
+
+                </div>
+            </div>
+            <div class="whole3">
+                <div style="margin-top: 9px;margin-left: 485px;">
+                    <table>
+                        <tr>
+                            <th>wins</th>
+                            <th>losses</th>
+                            <th>draws</th>
+                        </tr>
+                        <tr>
+                            <td><span id="wins">0</span></td>
+                            <td><span id="losses">0</span></td>
+                            <td><span id="draws">0</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+        <script src="challenge.js"></script>
+</body>
+
+</html>
